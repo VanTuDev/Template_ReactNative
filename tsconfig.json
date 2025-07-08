@@ -1,15 +1,20 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true,
+    "baseUrl": ".", // luôn cần để paths hoạt động
     "paths": {
       "@/*": [
-        "./*"
-      ]
-    }
+        "app/*"
+      ], // alias @/ trỏ vào thư mục app/
+      "@app/*": [
+        "app/*"
+      ] // alias @app/ cũng trỏ vào app/
+    },
+    "strict": true
   },
   "include": [
-    "**/*.ts",
-    "**/*.tsx"
+    "app/**/*",
+    "index.ts",
+    "index.tsx"
   ]
 }
