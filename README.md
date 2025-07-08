@@ -56,7 +56,7 @@ app/
 
 Dự án được cấu hình để kết nối với API tại:
 ```
-http://103.90.226.74:8080
+http:// Theo đường dẫn BE của bạn
 ```
 
 Các endpoint chính:
