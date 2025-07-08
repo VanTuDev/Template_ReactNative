@@ -82,4 +82,5 @@ npx expo start
 
 ## Môi trường
 
-Dự án hỗ trợ nhiều môi trường khác nhau (phát triển, sản xuất) thông qua file `app/config/env.ts`. Các biến môi trường được tự động chọn dựa trên biến `__DEV__` của React Native. 
+Dự án hỗ trợ nhiều môi trường khác nhau (phát triển, sản xuất) thông qua file `app/config/env.ts`. Các biến môi trường được tự động chọn dựa trên biến `__DEV__` của React Native.
+Nhớ thêm .env
